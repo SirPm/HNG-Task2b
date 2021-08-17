@@ -1,4 +1,4 @@
-![Ingressive]("./i4g.png/")
+![Ingressive]("https://ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png")
 ## https://ingressive.org/
 
 ![Zuri]("./zuri.png")
