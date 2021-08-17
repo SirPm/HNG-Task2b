@@ -2,11 +2,179 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESUME</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>CV Page</title>
 </head>
 <body>
-    INITAL
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div id="header-intro">
+            <p id="intro-text" class="animate__lightSpeedInLeft">Hi, I am</p>
+            <h1>Odumosu Oluwapelumi Ayomide</h1>
+            <h3>Objectives</h3>
+            <p id="objectives">To strive to add value and produce outstanding results by working in a challenging organization that promotes creative thinking and career opportunities.</p>
+            <div id="cv-and-contact">
+                <a href="#" id="cv">Download CV</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="profile">
+            <div id="about">
+                <h3>About Me</h3>
+                <hr id="about-me-underline">
+                <p>I am an exciting individual, seeking challenging opportunities where I can fully utilize my skills and strengths to add value to people. I am equally committed to promoting integrity and competency in whatever I do. And this motivates me to always do the hard work necessary to produce the best result. Challenging work often excites me as it gives me the opportunity to expand and really dive into my work. I maintain good work ethics engaging in continuous learning in order to broaden my knowledge and remain relevant.</p>
+            </div>
+            <div class="bio-data">
+                <img src="images/main.jpg" alt="mypics">
+                <div id="bio-data">
+                    <h3>Biological Data</h3>
+                    <hr id="bio-data-underline">
+                    <ul>
+                        <li><strong>Date of birth:</strong><em>21st July</em></li>
+                        <li><strong>State of origin:</strong><em>Ogun state</em></li>
+                        <li><strong>Nationality:</strong><em>Nigerian</em></li>
+                        <li><strong>Tech Stack:</strong><em>HTML5, CSS3, Bootstrap, JavaScript, jQuery, ReactJS, MaterialUI, Sass</em></li>
+                        <li><strong>Favorite Language:</strong><em>JavaScript</em></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div id="portfolio-and-education">
+            <div id="portfolio">
+                <h3>Projects</h3>
+                <hr id="projects-underline">
+                <div class="projects">
+                    <a href="https://Inbranded.co/"><img src="./images/Inbranded.png" alt="Inbranded"></a>
+                    <a href="https://Inbranded.co/"><p>Brand Building Platform</p></a>
+                </div>
+                <div class="projects">
+                    <a href="https://jsbudgetapp.netlify.app/"><img src="./images/Budget.png" alt="Budget"></a>
+                    <a href="https://jsbudgetapp.netlify.app/"><p>JavaScript Budget Calculator</p></a>
+                </div>
+                <div class="projects">
+                    <a href="https://foodie-sirpm.netlify.app/"><img src="./images/Foodie Landing Page.png" alt="foodie"></a>
+                    <a href="https://foodie-sirpm.netlify.app/"><p>Foodie Landing Page</p></a>
+                </div>
+                <div class="projects">
+                    <a href="https://easy-bank-landing-page-07.netlify.app/"><img src="./images/Easy Bank.png" alt="easy"></a>
+                    <a href="https://easy-bank-landing-page-07.netlify.app/"><p>Easy Bank Landing Page</p></a>
+                </div>
+            </div>
+            <div id="education">
+                <h3>Education</h3>
+                <hr id="education-underline">
+                <div class="edu">
+                    <p class="lasu">
+                        <strong>LAGOS STATE UNIVERSITY</strong>
+                        <strong>BSc. Zoology</strong>
+                    </p>
+                    <p>2014 - 2019</p>
+                </div>
+                <div class="edu">
+                    <strong>Front End Mentors</strong>
+                    <p>2020</p>
+                </div>
+            </div>
+        </div>
+        <div id="experience">
+            <h2>Work Experience</h2>
+            <hr id="experience-underline">
+            <div class="edu" id="work">
+                <p class="lasu">
+                    <strong>Inbranded</strong>
+                    <strong>Position: Front End Developer</strong>
+                </p>
+                <p>2021 - Present</p>
+            </div>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li><span>Building the company's website on the frontend with ReactJS, redux and redux-saga and other technologies.</span></li>
+                <li><span>Brainstorming and writing quality codes that is readable and easy to understand.</span></li>
+                <li><span>Integrating various api's to powerup the website</span></li>
+            </ul>
+            <div class="edu" id="work">
+                <p class="lasu">
+                    <strong>Nation Delivery Services LTD</strong>
+                    <strong>Position: Front End Developer</strong>
+                </p>
+                <p>2020 - 2021</p>
+            </div>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li><span> Building the website's interface based on clients requirement.</span></li>
+                <li><span> Thinking of best approach to solve the users problem and bug fixes.</span></li>
+                <li><span> Maintaining a wordpress website</span></li>
+            </ul>
+            <div class="edu" id="work">
+                <p class="lasu">
+                    <strong>GDSS Hamma'Ali Sokoto State</strong>
+                    <strong>Position: Biology Teacher</strong>
+                </p>
+                <p>2019 - 2020</p>
+            </div>
+            <h3>Responsibilities:</h3>
+            <ul>
+                <li><span> Creating lesson plans, setting exam and test questions, invigilating exams.</span></li>
+                <li><span> Conducting various lab experiments and ensuring the lab was in good condition.</span></li>
+                <li><span> Assisted the school in organizing and coordinating the activities of The Jets Club Association</span></li>
+            </ul>
+        </div>
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <hr id="contact-underline">
+            <div class="contact">
+                <strong>Github link: </strong>
+                <a href="https://www.github.com/SirPm">https://www.github.com/SirPm</a>
+            </div>
+            <div class="contact">
+                <strong>Phone Number: </strong>
+                <span>08069233535, 09014833248</span>
+            </div>
+            <div class="contact">
+                <strong>Email Address: </strong>
+                <span>oluwapelumiodumosuu@gmail.com</span>
+            </div>
+            <div class="contact">
+                <strong>Home Address: </strong>
+                <span>Somewhere in a far away town.</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="links-and-socials">
+            <div class="socials">
+                <a href="https://training.zuri.team/"><img src="images/zuri.png" alt="zuri"></a>
+                <a href="https://hng.tech/"><img style="width: 70%;" src="images/hng.png" alt="hng"></a>
+                <a href="https://ingressive.org/"><img style="width: 60%;" src="images/i4g.png" alt="ingressive"></a>
+            </div>
+        </div>
+        <p>All Rights Reserved &copy; 2021 Pelumi Odumosu</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
