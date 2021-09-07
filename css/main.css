@@ -647,11 +647,9 @@ textarea {
 
 footer {
     background-color: rgb(240, 80, 6);
-    margin-top: 10rem;
-    padding-top: 2rem;
-    bottom: 0;
+    padding: 30px;
     width: 100%;
-    height: 20vh;
+    margin-top: 10rem;
 }
 
 .links-and-socials {
@@ -677,7 +675,8 @@ footer {
 footer p {
     text-align: center;
     color: black;
-    margin-top: 5%;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 #experience ul {
